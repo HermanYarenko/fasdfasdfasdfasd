@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9855C4402B25E7E000D56779 /* contents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9855C43E2B25E7E000D56779 /* contents.xcdatamodeld */; };
 		98AAA4382B25E2B60085506C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AAA4372B25E2B60085506C /* DataService.swift */; };
 		98AAA43A2B25E2EA0085506C /* DateConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AAA4392B25E2EA0085506C /* DateConvert.swift */; };
 		98AAA43C2B25E4B40085506C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AAA43B2B25E4B40085506C /* Theme.swift */; };
@@ -31,6 +30,7 @@
 		98CB754E2B0E9DF500E18EE9 /* PhotoSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB754D2B0E9DF500E18EE9 /* PhotoSell.swift */; };
 		98CB75502B0E9E1900E18EE9 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB754F2B0E9E1900E18EE9 /* PhotosModel.swift */; };
 		98CB75522B0E9E4700E18EE9 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB75512B0E9E4700E18EE9 /* PhotosViewController.swift */; };
+		98DB85272B28C76C0091D828 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98DB85252B28C76B0091D828 /* CoreData.xcdatamodeld */; };
 		98E128E72B194EA9005149E6 /* ProfileViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E128E62B194EA9005149E6 /* ProfileViewContoller.swift */; };
 		98E128E92B194ED7005149E6 /* ProfileMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E128E82B194ED7005149E6 /* ProfileMode.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9855C43F2B25E7E000D56779 /* contents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = contents.xcdatamodel; sourceTree = "<group>"; };
 		98AAA4372B25E2B60085506C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		98AAA4392B25E2EA0085506C /* DateConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConvert.swift; sourceTree = "<group>"; };
 		98AAA43B2B25E4B40085506C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		98CB754D2B0E9DF500E18EE9 /* PhotoSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSell.swift; sourceTree = "<group>"; };
 		98CB754F2B0E9E1900E18EE9 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
 		98CB75512B0E9E4700E18EE9 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		98DB85262B28C76B0091D828 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		98E128E62B194EA9005149E6 /* ProfileViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewContoller.swift; sourceTree = "<group>"; };
 		98E128E82B194ED7005149E6 /* ProfileMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,17 +110,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9855C43D2B25E79400D56779 /* CoreData.xcdatamodelCoreData.xcdatamodel */ = {
-			isa = PBXGroup;
-			children = (
-				9855C43E2B25E7E000D56779 /* contents.xcdatamodeld */,
-			);
-			path = CoreData.xcdatamodelCoreData.xcdatamodel;
-			sourceTree = "<group>";
-		};
 		98CB75012B0E98DA00E18EE9 = {
 			isa = PBXGroup;
 			children = (
+				98DB85252B28C76B0091D828 /* CoreData.xcdatamodeld */,
 				98CB750C2B0E98DA00E18EE9 /* HomeWorkIOS */,
 				98CB75232B0E98DB00E18EE9 /* HomeWorkIOSTests */,
 				98CB752D2B0E98DC00E18EE9 /* HomeWorkIOSUITests */,
@@ -142,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				98CB750D2B0E98DA00E18EE9 /* AppDelegate.swift */,
-				9855C43D2B25E79400D56779 /* CoreData.xcdatamodelCoreData.xcdatamodel */,
 				98CB750F2B0E98DA00E18EE9 /* SceneDelegate.swift */,
 				98CB75112B0E98DA00E18EE9 /* ViewController.swift */,
 				98CB75162B0E98DB00E18EE9 /* Assets.xcassets */,
@@ -326,10 +318,10 @@
 				98CB75482B0E9D7F00E18EE9 /* GroupsModel.swift in Sources */,
 				98CB75122B0E98DA00E18EE9 /* ViewController.swift in Sources */,
 				98CB754A2B0E9D9D00E18EE9 /* GroupsViewController.swift in Sources */,
-				9855C4402B25E7E000D56779 /* contents.xcdatamodeld in Sources */,
 				98AAA43E2B25E4DA0085506C /* ThemeViewController.swift in Sources */,
 				98CB750E2B0E98DA00E18EE9 /* AppDelegate.swift in Sources */,
 				98CB75502B0E9E1900E18EE9 /* PhotosModel.swift in Sources */,
+				98DB85272B28C76C0091D828 /* CoreData.xcdatamodeld in Sources */,
 				98CB75442B0E9BDF00E18EE9 /* FriendsViewController.swift in Sources */,
 				98AAA43C2B25E4B40085506C /* Theme.swift in Sources */,
 				98AAA43A2B25E2EA0085506C /* DateConvert.swift in Sources */,
@@ -675,13 +667,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9855C43E2B25E7E000D56779 /* contents.xcdatamodeld */ = {
+		98DB85252B28C76B0091D828 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9855C43F2B25E7E000D56779 /* contents.xcdatamodel */,
+				98DB85262B28C76B0091D828 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = 9855C43F2B25E7E000D56779 /* contents.xcdatamodel */;
-			path = contents.xcdatamodeld;
+			currentVersion = 98DB85262B28C76B0091D828 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

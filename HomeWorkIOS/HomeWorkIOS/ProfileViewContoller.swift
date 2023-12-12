@@ -112,10 +112,6 @@ final class ProfileViewController: UIViewController {
 private extension ProfileViewController {
     
     @objc func goToThemeViewController() {
-        let animation = CATransition()
-        animation.type = .fade
-        animation.duration = 0.5
-        navigationController?.view.layer.add(animation, forKey: nil)
         navigationController?.pushViewController(ThemeViewController(), animated: false)
     }
 }

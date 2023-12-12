@@ -25,7 +25,7 @@ struct Friend: Decodable {
         case id
         case firstName = "first_name"
         case lastName = "last_name"
-        case photo = "photo_50"
+        case photo = "photo_60"
         case online
     }
 }
